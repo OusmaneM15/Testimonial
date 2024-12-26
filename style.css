@@ -1,17 +1,14 @@
 body {
-    align-items: center;
-    width: 75vw;
-    height: 60vh;
-    justify-content: center;
-    display: flex;
-    padding: 10%;
-    overflow-x: hidden;
-
-
+    font-family: 'Barlow Semi Condensed', sans-serif;
+    font-size: 1rem;
+    font-weight: 500;
+    color: black;
+    background-color: hsl(210, 46%, 95%);
+    margin: 4em auto;
 }
 
 .container {
-    background-color: hsl(210, 46%, 95%);
+  
     display: grid;
     grid-template-columns: 1fr 1fr 1fr 1fr;
     grid-template-rows: 1fr 1fr;
@@ -20,7 +17,7 @@ body {
     align-items: normal;
     padding: 10%;
     height: 100%;
-    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+ 
 }
 
 @font-face {
@@ -44,6 +41,9 @@ body {
     border-radius: 10px;
     padding: 30px;
     color: aliceblue;
+    background-image: url(images/bg-pattern-quotation.svg);
+    background-repeat: no-repeat;
+    background-position: 85% 0%;
 
 }
 
@@ -146,7 +146,7 @@ h1.reglages {
     font-size: 150%;
     font-family: detaiils;
     z-index: 1/1;
-    margin-bottom: 10%;
+    
 
 }
 
@@ -160,7 +160,7 @@ p.reglages2 {
     opacity: 40%;
     font-size: 130%;
     font-family: citation;
-    margin-top: 5%;
+     
 }
 
 @media (max-width: 375px) {
@@ -181,11 +181,7 @@ p.reglages2 {
         margin-bottom: 20px;
     }
 
-    .quotes {
-        margin-left: 70%;
-        margin-top: -15%;
-        margin-bottom: -20%;
-    }
+    
 }
 
 @media (max-width:1440px) {
@@ -195,16 +191,14 @@ p.reglages2 {
         padding: 0%;
     }
 
-    .quotes {
-        display: block;
-        margin-left: 50%;
-        margin-top: -15%;
-    }
+   
 }
 
-.quotes {
 
-    margin-left: 70%;
-    margin-top: -35%;
-    z-index: -1/1;
+.attribution{
+    font-size: 11px;
+    text-align: center;
+    color: black;
+    width: 400px;
+    margin: 2em auto;
 }
